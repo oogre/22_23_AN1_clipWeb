@@ -21,7 +21,7 @@ function setup() {
 	createCanvas(windowWidth, windowHeight);
 	colorMode(RGB);
 	frameRate(60);
-	sequencer = new Sequencer(audioPath, BPM);
+	sequencer = new Sequencer(audioPath, BPM, false);
 	
 	sequencer.registerSequence({
 		name : "arcSynth",

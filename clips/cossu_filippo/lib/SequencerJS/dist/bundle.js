@@ -1283,7 +1283,7 @@ class Sequencer {
     });
 
     if (debug) {
-      this.debug = false;
+      this.debug = true;
       this.debugDiv = document.createElement("div");
       this.debugDiv.style.position = "absolute";
       this.debugDiv.style.top = "75%";
